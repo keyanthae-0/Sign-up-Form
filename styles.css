@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 5px;
+}
+
+.container-left{
+    height: 100vh;
+    border: 3px solid black;
+    flex: 1;
+}
+
+.container-right{
+    border: 3px solid blue;
+    flex: 3;
+}
