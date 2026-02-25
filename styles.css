@@ -1,14 +1,22 @@
 body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
     display: flex;
     flex-direction: row;
-    margin: 10px;
-    gap: 5px;
+    height: 100vh;
+    border: 3px solid red;
 }
 
 .container-left{
-    height: 100vh;
     border: 3px solid black;
     flex: 1;
+    background-image: url(imgs/johannes-hofmann-SxiWUpGLaZM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-right{
