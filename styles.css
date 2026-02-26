@@ -19,21 +19,42 @@ body{
 }
 
 .container-right{
-    border: 3px solid blue;
     flex: 3;
-    margin: 3px;
     display: flex;
     flex-direction: column;
 }
 
 .top-container{
-    border: 3px solid red;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.inner-top-content{
+    margin: 10px;
 }
 
 .middle-container{
-    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
     flex: 1;
+}
+
+form{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+h2, form{
+    margin-left: 40px;
+}
+
+.input{
+    width: 200px;
 }
 
 .bottom-container{
