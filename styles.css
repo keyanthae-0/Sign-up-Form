@@ -1,3 +1,12 @@
+* {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 body{
     margin: 0;
     box-sizing: border-box;
@@ -29,6 +38,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-color: #D1D5DB;
+    color: #4B5563;
+    font-weight: bolder;
+
 }
 
 .inner-top-content{
@@ -39,6 +52,8 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    box-shadow: 0 10px 30px -10px black;
+    margin-bottom: 10px;
 }
 
 form{
@@ -55,6 +70,7 @@ label{
 
 #title2, form{
     margin-left: 40px;
+    margin-bottom: 0px;
 }
 
 .input{
@@ -63,11 +79,23 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #4B5563;
+    font-weight: 700;
+}
+
+input:user-invalid{
+    border-color: red;
+}
+
+input:user-valid{
+    border-color: green;
 }
 
 input{
-    height: 25px;
+    height: 30px;
     width: 300px;
+    border-radius: 10px;
+    border: 1px solid;
 }
 
 
@@ -76,6 +104,10 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: start;
+    background-color: #D1D5DB;
+    color: #4B5563;
+    font-weight: bold;
+
 }
 
 .sign-upbox{
@@ -98,6 +130,16 @@ input{
     height: 60px;
     border-radius: 15px;
     font-size: 25px;
+    background-color: #5F7A61;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+}
+
+.signup:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #5F7A61;
 }
 
 .signup, #title1{
@@ -131,4 +173,17 @@ input{
     bottom: 0;
     left: 130px;
     font-size: 20px;
+}
+
+a{
+    color: white;
+}
+
+#green{
+    color: #5F7A61;
+}
+
+#green:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
