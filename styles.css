@@ -7,7 +7,6 @@ body{
     display: flex;
     flex-direction: row;
     height: 100vh;
-    border: 3px solid red;
 }
 
 .container-left{
@@ -22,4 +21,22 @@ body{
 .container-right{
     border: 3px solid blue;
     flex: 3;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container{
+    border: 3px solid red;
+    flex: 1;
+}
+
+.middle-container{
+    border: 3px solid blue;
+    flex: 1;
+}
+
+.bottom-container{
+    border: 3px solid green;
+    flex: 1;
 }
