@@ -11,10 +11,11 @@ body{
 
 .container-left{
     flex: 1;
-    background-image: url(imgs/adam-lisan-WxqhNjzHHBY-unsplash.jpg);
+    background-image: url(imgs/zoltan-tasi-yanhwFwyoaU-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .container-right{
@@ -28,8 +29,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-color: #727070;
-    color: white;
 }
 
 .inner-top-content{
@@ -77,8 +76,6 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    background-color: #727070;
-    color: white;
 }
 
 .sign-upbox{
@@ -97,11 +94,41 @@ input{
 }
 
 .signup{
-    width: 20%;
-    height: 80px;
-    border-radius: 10px;
+    width: 15%;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 25px;
 }
 
 .signup, #title1{
-    margin: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.logo-box{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#odin-text{
+    color: white;
+    font-size: 100px;
+}
+
+#logo{
+    width: 200px;
+    height: 250px;
+}
+
+.cred-box{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    font-size: 20px;
 }
