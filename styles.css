@@ -10,9 +10,8 @@ body{
 }
 
 .container-left{
-    border: 3px solid black;
     flex: 1;
-    background-image: url(imgs/johannes-hofmann-SxiWUpGLaZM-unsplash.jpg);
+    background-image: url(imgs/adam-lisan-WxqhNjzHHBY-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +28,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-color: #727070;
+    color: white;
 }
 
 .inner-top-content{
@@ -49,15 +50,58 @@ form{
     flex-wrap: wrap;
 }
 
-h2, form{
+label{
+    font-size: 25px;
+}
+
+#title2, form{
     margin-left: 40px;
 }
 
 .input{
-    width: 200px;
+    width: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+input{
+    height: 25px;
+    width: 300px;
+}
+
+
 .bottom-container{
-    border: 3px solid green;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #727070;
+    color: white;
+}
+
+.sign-upbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    flex: 1;
+    text-align: center;
+    display: flex;
+}
+
+.login{
+    flex: 3;
+}
+
+.signup{
+    width: 20%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.signup, #title1{
+    margin: 20px;
 }
